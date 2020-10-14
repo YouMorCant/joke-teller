@@ -6,4 +6,19 @@ body{
     /* makes the website the hole screen size with no margins before content */
     margin: 0;
     min-height: 100vh;
+    background: #45badd;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* Makes sure the elements go vertically */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('/robot.gif');
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
 }
